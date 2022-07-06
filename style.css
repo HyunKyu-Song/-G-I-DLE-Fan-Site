@@ -1,0 +1,15 @@
+a{
+  color: black;
+  text-decoration:None;
+}
+.name{
+  border-bottom: solid 4px black;
+  display: block;
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+html{
+  background: url(bg.png);
+  background-size: auto;
+}

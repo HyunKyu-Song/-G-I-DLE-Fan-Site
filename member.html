@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>(G)I-DLE Fan Site</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      #image{
+        display: grid;
+        grid-template-columns: 500px 500px 500px;
+      }
+
+      .container{
+        position: relative;
+      }
+
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 500px;
+        opacity: 0;
+        transition: .5s ease;
+      }
+
+      .container:hover .overlay {
+         opacity: 1;
+      }
+
+      .topleft {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+        font-size: 18px;
+      }
+
+      .left_image {
+        display: block;
+        width: 500px;
+      }
+
+      .right_image {
+        position: absolute;
+        width: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><a class="name" href="index.html" title="Home">(여자)아이들((G)I-DLE)</a></h1>
+    <ul>
+      <li><a href="introduce.html" title="introduce">소개</a><br></li>
+      <li><a href="member.html" title="member" style="text-decoration:underline">멤버</a><br></li>
+      <li><a href="award.html" title="award">수상</a><br></li>
+    </ul>
+    <div id="image">
+      <div class="container">
+        <img src="미연.jpg" class="left_image">
+        <div class="overlay">
+          <img src="미연2.jpg" class="right_image">
+          <div class="topleft">
+            미연 (조미연)<br>
+            1997년 1월 31일(대한민국) 메인보컬
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <img src="민니.jpg" class="left_image">
+        <div class="overlay">
+          <img src="민니2.jpg" class="right_image">
+          <div class="topleft">
+            민니 (니차 욘따라락)<br>
+            1997년 10월 23일(태국) 메인보컬
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <img src="소연.jpg" class="left_image">
+        <div class="overlay">
+          <img src="소연2.jpg" class="right_image">
+          <div class="topleft">
+            소연 (전소연)<br>
+            1998년 8월 26일(대한민국) 리더, 메인래퍼
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <img src="우기.jpg" class="left_image">
+        <div class="overlay">
+          <img src="우기2.jpg" class="right_image">
+          <div class="topleft">
+            우기 (쑹위치)<br>
+            1999년 9월 23일(중국) 서브보컬, 리드댄서
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <img src="슈화.jpg" class="left_image">
+        <div class="overlay">
+          <img src="슈화2.jpg" class="right_image">
+          <div class="topleft">
+            슈화 (예슈화)<br>
+            2000년 1월 6일(대만) 서브보컬
+          </div>
+        </div>
+      </div>
+      <img src="단체사진3.jpg" width="500px">
+    </div>
+  </body>
+</html>
